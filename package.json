@@ -78,7 +78,11 @@
             },
             {
                 "key": "ctrl+w",
-                "command": "editor.action.addSelectionToNextFindMatch"
+                "command": "editor.action.smartSelect.grow"
+            },
+            {
+                "key": "ctrl+shift+w",
+                "command": "editor.action.smartSelect.shrink"
             },
             {
                 "key": "ctrl+alt+space",
